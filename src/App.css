@@ -1,0 +1,60 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  /* background: linear-gradient(to right, #4facfe, #00f2fe); */
+  background-image: url(/public/bgforapp.jpg);
+  background-repeat: no-repeat;
+  color: #fff;
+  /* height: 100vh; */
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-group button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.input-group button:hover {
+  background-color: #555;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}

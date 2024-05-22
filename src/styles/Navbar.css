@@ -1,0 +1,25 @@
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  /* color: #fff; */
+  width: 100%;
+  /*  */
+  font-size: 30px;
+  font-style: normal;
+  background-color: rgba(
+    91,
+    94,
+    97,
+    0.079
+  ); /* Semi-transparent background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+  position: relative;
+}
+
+.navbar h1 {
+  margin: 0;
+  color: #fff;
+}
